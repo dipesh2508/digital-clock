@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #0F2027;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    box-sizing: border-box;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.clock {
+    height: 95vh;
+    width: 100%;
+
+    
+    color: #f5d3b9;
+    background-image: -webkit-linear-gradient(0deg, #f5d3b9 6%, #3f05e4 89%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+    display: grid;
+    place-items: center;
+    font-size: 80px;
+}
+
+footer {
+    
+    color: #f5d3b9;
+    background-image: -webkit-linear-gradient(0deg, #f5d3b9 6%, #3f05e4 89%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+    size: 64px;
+    text-align: center;
+}
